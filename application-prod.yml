@@ -1,11 +1,12 @@
 spring:
  application:
   name: config-prod
-  datasource:
-    username: root
+  
   eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
+   instance:
+    prefer-ip-address: true
       
 
