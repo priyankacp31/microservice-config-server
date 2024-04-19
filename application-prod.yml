@@ -1,6 +1,8 @@
 spring:
  application:
   name: config-prod
+  datasource:
+    username: root
   eureka:
   client:
     serviceUrl:
